@@ -1,0 +1,10 @@
+{
+  "@class" : "org.apereo.cas.services.RegexRegisteredService",
+  "serviceId" : "https?://casmgmt\\.local\\.edu.*",
+  "name" : "CasManagement",
+  "id" : 52,
+  "evaluationOrder" : 52,
+  "attributeReleasePolicy" : {
+    "@class" : "org.apereo.cas.services.ReturnAllAttributeReleasePolicy"
+  }  
+}

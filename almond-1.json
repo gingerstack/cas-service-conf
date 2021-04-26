@@ -1,0 +1,21 @@
+{
+  "@class": "org.apereo.cas.support.saml.services.SamlRegisteredService",
+  "serviceId": "almond.example.org",
+  "name": "almond",
+  "id": 1,
+  "evaluationOrder": 1,
+  "metadataLocation": "https://metadata-aggregate-address.xml",
+  "attributeReleasePolicy": {
+    "@class": "org.apereo.cas.services.ChainingAttributeReleasePolicy",
+    "policies": [
+      "java.util.ArrayList",
+      [
+        { "@class": "org.apereo.cas.support.saml.services.InCommonRSAttributeReleasePolicy" },
+        {
+          "@class": "org.apereo.cas.services.ReturnAllowedAttributeReleasePolicy",
+          "allowedAttributes" : [ "java.util.ArrayList", [ "department", "title" ] ]
+        }
+      ]
+    ]
+  }
+}
