@@ -1,7 +1,7 @@
 {
   "@class": "org.apereo.cas.support.saml.services.SamlRegisteredService",
-  "serviceId": "almond.example.org",
-  "name": "almond",
+  "serviceId": "almond1.example.org",
+  "name": "almond1",
   "id": 1,
   "evaluationOrder": 1,
   "metadataLocation": "https://metadata-aggregate-address.xml",
