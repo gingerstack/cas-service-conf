@@ -1,0 +1,18 @@
+{
+  @class: org.apereo.cas.services.RegexRegisteredService
+  serviceId: https?://test-app-10\.unicon\.local/.*
+  name: CasTestApp10
+  id: 1620678606598
+  proxyTicketExpirationPolicy:
+  {
+    @class: org.apereo.cas.services.DefaultRegisteredServiceProxyTicketExpirationPolicy
+  }
+  serviceTicketExpirationPolicy:
+  {
+    @class: org.apereo.cas.services.DefaultRegisteredServiceServiceTicketExpirationPolicy
+  }
+  attributeReleasePolicy:
+  {
+    @class: org.apereo.cas.services.DenyAllAttributeReleasePolicy
+  }
+}
