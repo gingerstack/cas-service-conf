@@ -15,6 +15,7 @@
   evaluationOrder: 1
   attributeReleasePolicy:
   {
-    @class: org.apereo.cas.services.DenyAllAttributeReleasePolicy
+    @class: org.apereo.cas.services.ReturnAllowedAttributeReleasePolicy
+    allowedAttributes: null
   }
 }
