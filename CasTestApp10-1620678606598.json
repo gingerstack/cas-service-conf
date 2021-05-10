@@ -3,6 +3,7 @@
   serviceId: https?://test-app-10\.unicon\.local/.*
   name: CasTestApp10
   id: 1620678606598
+  description: "dfjsiofd dfjdjsfdjflkdjlfkjdsf kldjflkjdslf "
   proxyTicketExpirationPolicy:
   {
     @class: org.apereo.cas.services.DefaultRegisteredServiceProxyTicketExpirationPolicy
@@ -11,6 +12,7 @@
   {
     @class: org.apereo.cas.services.DefaultRegisteredServiceServiceTicketExpirationPolicy
   }
+  evaluationOrder: 1
   attributeReleasePolicy:
   {
     @class: org.apereo.cas.services.DenyAllAttributeReleasePolicy
